@@ -1,25 +1,4 @@
-$primary: #4271cd;
-$accent: #284379;
-$bg: #ffffff;
-$bg-accent: #e7e8e9;
-$foreground: #2d264b;
-$disabled: #9c9c9c;
-$liner: linear-gradient(
-  135deg,
-  rgba(66, 113, 205, 1) 45%,
-  rgba(202, 196, 255, 1) 100%
-);
-
-body {
-  font-family: monospace;
-  background: $liner;
-  color: $foreground;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0 30px;
-  height: 100vh;
-}
+@import "../../style/vars.scss";
 
 .quiz-conatainer {
   width: 500px;

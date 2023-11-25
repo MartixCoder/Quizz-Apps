@@ -1,5 +1,5 @@
 import "./App.css";
-import Quizz from "./Components/Quizz";
+import Quizz from "./Components/Quizz/Quizz";
 import {jsQuiz} from './data/Constants'
 
 function App() {
