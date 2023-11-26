@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from "react";
-import "./AnswarTimer.scss";
+import "./answartimer.scss";
 
 const AnswarTimer = ({duration, onTimeUp}) => {
   const [counter, setCounter] = useState(0);
