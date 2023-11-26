@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Result/Result.scss';
+import React from "react";
+import "../Result/Result.scss";
 
 const Result = ({result, totalQuestions, onTryAgain}) => {
   return (
@@ -17,12 +17,13 @@ const Result = ({result, totalQuestions, onTryAgain}) => {
       <p>
         Wrong Answars: <span>{result.wrongAnswars}</span>
       </p>
-          <button onClick={onTryAgain}>Try Again</button>
-          <>
-              <h3>Enter Your Name Bellow To Save Your Score!</h3>
-          </>
+      <button onClick={onTryAgain}>Try Again</button>
+      <>
+        <h3>Enter Your Name Bellow To Save Your Score!</h3>
+        <input />
+      </>
     </div>
   );
-}
+};
 
 export default Result;
