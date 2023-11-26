@@ -20,7 +20,7 @@ const Result = ({result, totalQuestions, onTryAgain}) => {
       <button onClick={onTryAgain}>Try Again</button>
       <>
         <h3>Enter Your Name Bellow To Save Your Score!</h3>
-        <input />
+        <input/>
       </>
     </div>
   );
