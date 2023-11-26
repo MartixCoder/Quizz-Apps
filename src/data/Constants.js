@@ -1,5 +1,11 @@
 export const jsQuiz = [
   {
+    question:
+      "Which of the following is used in React.js to increase performance?",
+    type: "FIB",
+    correctAnswer: "Props",
+  },
+  {
     id: 1,
     question:
       "Which of the following is used in React.js to increase performance?",
